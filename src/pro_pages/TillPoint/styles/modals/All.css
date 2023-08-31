@@ -1,0 +1,115 @@
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(0, 0, 0, 0.5); */
+    z-index: 2;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.done-container {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(98, 98, 184);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.done-done-container {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(50, 89, 104);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.done-done-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.done-done-items-items {
+    background-color: white;
+    height: 95%;
+    width: 95%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.done-done-items-c {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+}
+
+.done-done-items-ch {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.done-done-items-chh {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.done-items {
+    background-color: rgb(182, 176, 176);
+    width: 80%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.loading-cc {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.loading-ccc{
+    margin-left: 10px;
+}
+
+.all-inputs-inputs {
+    border-style: none;
+    text-align: center;
+    font-size: 30px;
+}
+
+.closebutton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #194C98;
+    color: white;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+}

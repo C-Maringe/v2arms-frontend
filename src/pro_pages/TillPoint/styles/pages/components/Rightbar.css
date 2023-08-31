@@ -1,0 +1,249 @@
+.my-css-container-tillpoint .Rightbar-container {
+    width: 77%;
+    height: calc(100vh - 60px);
+    margin-right: 1%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    border-radius: 5px;
+}
+
+.my-css-container-tillpoint .table-container {
+    height: calc(100% - 200px);
+    /* background-color: white;*/
+}
+
+.my-css-container-tillpoint .table-container-main {
+    border: 1px solid #eeccee;
+    height: calc(100% - 10px);
+    overflow-y: scroll;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.my-css-container-tillpoint .Rightbar-table {
+    width: 100%;
+}
+
+.my-css-container-tillpoint .Rightbar-header-container {
+    background-color: grey;
+    height: 40px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0
+}
+
+
+
+.my-css-container-tillpoint .addmodal-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.my-css-container-tillpoint .addmodal-input-details {
+    /* color: rgb(107, 107, 212); */
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.my-css-container-tillpoint .addmodal-input-stock-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.my-css-container-tillpoint .addmodal-input {
+    width: 60%;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 5px;
+    border-style: none;
+    text-align: center;
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-css-container-tillpoint .addmodal-input-details-stock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #979696;
+    height: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+
+.my-css-container-tillpoint .Rightbar-table-header {
+    width: 20%;
+}
+
+.my-css-container-tillpoint .Rightbar-rows-container {
+    background-color: white;
+    height: 30px;
+    position: relative;
+}
+
+.my-css-container-tillpoint .Rightbar-rows-items {
+    padding-left: 10px;
+}
+
+.my-css-container-tillpoint .Rightbar-rows-items-icons {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-css-container-tillpoint .Rightbar-rows-items-icon {
+    width: 20px;
+    height: 20px;
+    color: rgb(22, 27, 152);
+}
+
+.my-css-container-tillpoint .Rightbar-rows-items-icon:focus {
+    width: 40px;
+    height: 40px;
+    color: #164C98;
+}
+
+.my-css-container-tillpoint .rightbar-bottom-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.my-css-container-tillpoint .rightbar-left-container {
+    width: 65%;
+    background-color: #164C98;
+    padding-top: 5px;
+}
+
+.my-css-container-tillpoint .rightbar-left-title-input {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.my-css-container-tillpoint .rightbar-left-title {
+    width: 200px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.my-css-container-tillpoint .rightbar-left-input {
+    width: 100%;
+    margin-right: 10px;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    border-style: none;
+    background-color: white;
+}
+
+.my-css-container-tillpoint .rightbar-left-stock-status {
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+
+.my-css-container-tillpoint .buttons-rightbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.my-css-container-tillpoint .submit-button {
+    width: 100px;
+    height: 30px;
+    border-style: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+}
+
+.my-css-container-tillpoint .submit-button:focus {
+    outline-style: solid;
+    outline-color: black;
+    box-shadow: 0 0 0 4px green;
+}
+
+/* .my-css-container-tillpoint:focus {
+    border: 2px solid red; rightbar-bottom-right
+} */
+
+.my-css-container-tillpoint .rightbar-bottom-right-title {
+    width: 150px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.my-css-container-tillpoint .rightbar-bottom-right {
+    background-color: #164C98;
+    width: 34%;
+    margin-left: 0.5%;
+}
+
+.my-css-container-tillpoint .rightbar-bottom-right:focus {
+    outline-style: solid;
+    outline-color: black;
+    box-shadow: 0 0 0 4px green;
+}
+
+.my-css-container-tillpoint .tillpoint-onfocus-style:focus {
+    outline-style: solid;
+    outline-color: black;
+    box-shadow: 0 0 0 4px green;
+}
+
+.my-css-container-tillpoint .rightbar-bottom-right-items {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.my-css-container-tillpoint .rightbar-bottom-right-input {
+    width: 70%;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    border-style: none;
+}

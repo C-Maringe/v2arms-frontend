@@ -1,0 +1,23 @@
+#rdt_TableHeader {
+    border: 10px solid black;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+    z-index: 0;
+}
+
+.custom-file-input::before {
+    content: 'Import Products Excel File';
+    display: inline-block;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.custom-file-input:hover::before {
+    border-color: black;
+}

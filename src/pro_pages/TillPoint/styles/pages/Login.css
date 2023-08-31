@@ -1,0 +1,133 @@
+.logiin {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.login-header1 {
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px 10px rgb(235, 235, 235);
+}
+
+.login-header-logo {
+    display: flex;
+    height: 50px;
+    margin-left: 30px;
+}
+
+.login-header2 {
+    width: 100vw;
+    height: 60px;
+    box-shadow: 0 0 10px 10px rgb(235, 235, 235);
+    transition: 0.1s;
+    display: none;
+    align-items: center;
+    flex-direction: row;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.form-container {
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    padding-right: 30px;
+    box-shadow: 0 0 10px 10px rgb(235, 235, 235);
+}
+
+.login-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-title1 {
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.login-title2 {
+    font-size: 17px;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 5px;
+    color: grey;
+}
+
+.login-inputs-label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.login-label {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.login-inputs {
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-style: none;
+    background-color: rgb(235, 235, 235);
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.login-button {
+    margin-top: 20px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #164C98;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.login-text-links-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.login-text-links {
+    font-size: 16px;
+    color: blue;
+}
+
+.login-text-links:hover {
+    text-decoration: underline;
+}
+
+.coloooo {
+    color: #164C98;
+    color: rgb(22, 27, 152);
+    color: #ffffff;
+    color: #CCA35B;
+}
